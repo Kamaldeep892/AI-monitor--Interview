@@ -1,0 +1,38 @@
+# 1. Dependencies (Dono client aur server ke node_modules)
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# 2. Environment Variables (API Keys, Cloudinary & Secrets chhupane ke liye)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+server/.env
+client/.env
+
+# 3. Temporary Recorded Interview Videos & Uploads
+server/uploads/
+uploads/
+*.webm
+*.mp4
+
+# 4. Production Build Folders
+dist/
+build/
+client/dist/
+client/build/
+
+# 5. Logs & Debug Files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# 6. OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
